@@ -3,6 +3,12 @@ from rest_framework import serializers
 
 from .models.mango import Mango
 from .models.user import User
+from .models.story import Story
+
+class StorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Story
+        fields = '__all__'
 
 class MangoSerializer(serializers.ModelSerializer):
     class Meta:

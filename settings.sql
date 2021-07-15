@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS story_time_backend;
-CREATE DATABASE story_time_backend;
+DROP DATABASE IF EXISTS Story_Time;
+CREATE DATABASE Story_Time;

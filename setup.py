@@ -14,13 +14,13 @@ with open('LICENSE.md') as f:
     LICENSE = f.read()
 
 setup(
-    name='Story_Time_Backend',
+    name='story_time_backend',
     version='0.1.0',
     description='GA SEI Boston Django Authentication Template',
     long_description=README,
     author='<author>',
     author_email='<email>',
-    url='https://git.generalassemb.ly/ga-wdi-boston/Story_Time_Backend',
+    url='https://git.generalassemb.ly/ga-wdi-boston/story_time_backend',
     license=LICENSE,
     packages=find_packages(exclude=('tests', 'docs'))
 )
