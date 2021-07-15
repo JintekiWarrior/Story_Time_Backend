@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS <project-name-here>;
-CREATE DATABASE <project-name-here>;
+DROP DATABASE IF EXISTS story_time_backend;
+CREATE DATABASE story_time_backend;
