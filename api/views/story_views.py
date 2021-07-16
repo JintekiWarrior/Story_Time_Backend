@@ -26,7 +26,6 @@ class Stories(generics.ListCreateAPIView):
     # create a new story object
     def post(self, request):
         """Create request"""
-        print('give me data ', request.data)
         # Add the user to the object
         request.data['story']['owner'] = request.user.id
         # Turn the data into object format
