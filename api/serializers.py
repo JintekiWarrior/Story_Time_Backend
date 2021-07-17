@@ -16,6 +16,12 @@ class StorySerializer(serializers.ModelSerializer):
         model = Story
         fields = '__all__'
 
+class ChapterStorySerializer(serializers.ModelSerializer):
+    story = StorySerializer(many=False)
+    class Meta:
+        model = Chapter
+        fields = '__all__'
+
 class MangoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Mango
