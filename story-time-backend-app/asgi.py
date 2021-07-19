@@ -1,5 +1,5 @@
 """
-ASGI config for story-time-backend project.
+ASGI config for story-time-backend-app project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'story-time-backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'story-time-backend-app.settings')
 
 application = get_asgi_application()

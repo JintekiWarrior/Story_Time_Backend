@@ -1,5 +1,5 @@
 """
-WSGI config for story-time-backend_template project.
+WSGI config for story-time-backend-app_template project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'story-time-backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'story-time-backend-app.settings')
 
 application = get_wsgi_application()
