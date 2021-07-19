@@ -10,7 +10,8 @@ class Chapter(models.Model):
     name = models.CharField(max_length=100)
     # body of the chapter
     body = models.TextField(max_length=10000)
-
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
     # The chapter has a one to many relationship with the story and needs to refer
     # to it.
     story = models.ForeignKey(
